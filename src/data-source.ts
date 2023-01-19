@@ -2,8 +2,8 @@ import 'reflect-metadata'
 import { DataSource } from 'typeorm'
 
 export const AppDataSource = new DataSource({
-    type: "mongodb",
-    url: "mongodb+srv://homecaresystem:123asyst100@homecaresystem.dh0cd.mongodb.net/cashflow",
+    type: "",
+    url: "",
     useNewUrlParser: true,
     useUnifiedTopology: true,
     synchronize: true,
